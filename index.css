@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background: #881337;
+    color: #FFF1F2;
+    font-size: 30px;
+    text-align: center;
+}
+@font-face {
+    font-family: Timer;
+    src: url("TickingTimebombBB.ttf");
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.score {
+    width: 120px;
+    background: #080001;
+    color: #F94F6D;
+    font-family: Timer;
+    font-size: 90px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.score-btn button {
+    border-color: #9AABD8;
+    background: #881337;
+    border-radius: 5px;
+    padding: 8px 8px;
+    color: #FFF1F2;
+    font-family: Timer;
+}
+   
+h3 {
+   margin: 20px; 
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
