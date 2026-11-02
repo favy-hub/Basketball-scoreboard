@@ -1,9 +1,9 @@
 let homeScoreEl = document.getElementById("home-score-el");
 let guestScoreEl = document.getElementById("guest-score-el")
-let homeScore = 0
-let guestScore = 0
-homeScoreEl.textContent = JSON.parse(localStorage.getItem("homeScore"))
-guestScoreEl.textContent = JSON.parse(localStorage.getItem("guestScore"))
+let homeScore = JSON.parse(localStorage.getItem("homeScore"));
+let guestScore = JSON.parse(localStorage.getItem("guestScore"));
+homeScoreEl.textContent = homeScore;
+guestScoreEl.textContent = guestScore;
 
 function increaseHomeScoreOne(){
     homeScore += 1
